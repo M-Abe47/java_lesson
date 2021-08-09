@@ -1,0 +1,5 @@
+# 「.metadata」フォルダを除外
+.metadata/
+
+# 「Servers」フォルダを除外
+Servers/
