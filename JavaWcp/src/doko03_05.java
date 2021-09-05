@@ -1,7 +1,7 @@
 public class doko03_05 {
     public static void main(String[] args) {
         System.out.println("あなたの運勢を占います");
-        int fortune = 1;
+        int fortune = new java.util.Random().nextInt(5) + 1;
         switch (fortune) {
           case 1:
             System.out.println("大吉");
